@@ -37,7 +37,7 @@ class Example(QWidget):
         vbutton = QPushButton("vertical")
 
         hbox = QHBoxLayout()
-        # hbox.addStretch(1)
+        # hbox.addStretch(1.txt)
         hbox.addWidget(okButton)
         hbox.addStretch(1)
         hbox.addWidget(cancelButton)
@@ -61,7 +61,7 @@ class Example(QWidget):
         names = ['Cls','Bck','','Close',
                  '7','8','9','/',
                  '4','5','6','*',
-                 '1','2','3','-',
+                 '1.txt','2','3','-',
                  '0','.','=','+']
         positions = [(i,j) for i in range(5)for j in range(4)]
 
